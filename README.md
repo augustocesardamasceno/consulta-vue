@@ -25,7 +25,7 @@ Este projeto é uma aplicação Vue.js para operações CRUD (Create, Read, Upda
 ### Clonando o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/vue-js-client-crud.git
+git clone https://github.com/augustocesardamasceno/consulta-vue.git
 cd vue-js-client-crud
 ```
 
