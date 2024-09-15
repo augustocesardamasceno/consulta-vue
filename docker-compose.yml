@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+
+  frontend:
+    build:
+      context: .  
+    ports:
+      - '8082:8082' 
+    volumes:
+      - .:/app  
+      - /app/node_modules
+    environment:
+      - VUE_APP_PORT=8082
+    networks:
+      - my-app-network
+    
+
+networks:
+  my-app-network:
+    driver: bridge
